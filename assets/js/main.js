@@ -104,14 +104,13 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.image',
+					selector: '.work-item a.image:not(#github-link)',
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
-
 			});
 
 })(jQuery);
